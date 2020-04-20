@@ -1,10 +1,15 @@
-import java.util.Scanner;
-class Main {
-  public static void main(String[] args) {
+# ATM Machine
+
+    import java.util.Scanner;
+    
+    class Main {
+    public static void main(String[] args) {
+  
     for(;;){
     System.out.println("Olá, seja Bem-vindo ao BTG");
-
+   
     Scanner entrada = new Scanner(System.in);
+    
     String CPF; 
     String conta;
     String banco;
